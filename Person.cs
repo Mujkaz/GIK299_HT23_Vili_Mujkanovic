@@ -8,7 +8,7 @@ namespace GIK299_HT23_Vili_Mujkanovic
 {
     public class Person
     {
-        //Properties  
+        //Properties
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public int Age { get; set; }

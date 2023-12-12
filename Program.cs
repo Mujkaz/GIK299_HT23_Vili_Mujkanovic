@@ -4,6 +4,7 @@
     {
         static void Main(string[] args)
         {
+            //Här hårdkodar jag data och kopplat in struct och enumen från de andra klasserna.
             string FirstName = "Pablo";
             string LastName = "Escobar";
             int Age = 44;
@@ -13,6 +14,7 @@
             DateTime birthDay = new DateTime( 1949, 12, 1);
         
 
+            //Här presenteras allting till konsolen.
             Person person = new Person (FirstName, LastName, Age, gender, hair, birthDay, Eyecolor);
 
             Console.WriteLine(person.ToString());
